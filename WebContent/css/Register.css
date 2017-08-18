@@ -1,0 +1,235 @@
+body {
+    font-family: Arial, Helvetica, sans-serif, "宋体";
+}
+
+#box {
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -o-border-radius: 5px;
+    background: #fff;
+    text-align: center;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    width: 500px;
+    height: 470px;
+    margin: 0 auto;
+    border: 1px solid #CCC;
+}
+
+input.iput {
+    height: 27px;
+    float: right;
+    outline: none;
+    font-size: 15px;
+    color: #bcbcbc;
+    padding: 5px 20px;
+    background: #F3F5F6;
+    border-top: 3px solid #EEF0F1;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -o-border-radius: 5px;
+    margin: 0px 0px 10px 0px;
+    width: 50%;
+    -webkit-appearance: none;
+    display: inline-block;
+    outline: none;
+    border-right: none;
+    border-left: none;
+    border-bottom: none;
+    margin-right: 20px;
+    margin-top: -10px;
+}
+
+body {
+    background: #2C3E50;
+    font-size: 100%;
+}
+
+button {
+    background: #39F;
+    color: #FFF;
+    width: 100px;
+    height: 36px;
+    border: 0;
+    font-size: 16px;
+    cursor: pointer;
+    margin-top: 30px;
+}
+
+::-webkit-scrollbar {
+    width: 12px;
+    height: 12px
+}
+
+::-webkit-scrollbar-button:vertical {
+    display: none
+}
+
+::-webkit-scrollbar-track:vertical {
+    background-color: black
+}
+
+::-webkit-scrollbar-track-piece {
+    background: #FDFDFD;
+}
+
+::-webkit-scrollbar-thumb:vertical {
+    background-color: #8E8E8E;
+    border-radius: 5px
+}
+
+::-webkit-scrollbar-thumb:vertical:hover {
+    background-color: #3B3B3B
+}
+
+::-webkit-scrollbar-corner:vertical {
+    background-color: #535353
+}
+
+::-webkit-scrollbar-resizer:vertical {
+    background-color: #FF6E00
+}
+
+@-webkit-keyframes animate-cloud {
+    from {
+        background-position: 600px 100%;
+    }
+    to {
+        background-position: 0 100%;
+    }
+}
+
+@-moz-keyframes animate-cloud {
+    from {
+        background-position: 600px 100%;
+    }
+    to {
+        background-position: 0 100%;
+    }
+}
+
+@-ms-keyframes animate-cloud {
+    from {
+        background-position: 600px 100%;
+    }
+    to {
+        background-position: 0 100%;
+    }
+}
+
+@-o-keyframes animate-cloud {
+    from {
+        background-position: 600px 100%;
+    }
+    to {
+        background-position: 0 100%;
+    }
+}
+
+@-webkit-keyframes stage-0 {
+    from {
+        -webkit-transform: scale(0.01);
+    }
+    to {
+        -webkit-transform: scale(1);
+    }
+}
+
+@keyframes stage-0 {
+    from {
+        transform: scale(0.01);
+    }
+    to {
+        transform: scale(1);
+    }
+}
+
+@-moz-keyframes stage-0 {
+    from {
+        -moz-transform: scale(0.01);
+    }
+    to {
+        -moz-transform: scale(1);
+    }
+}
+
+@-o-keyframes stage-0 {
+    from {
+        -o-transform: scale(0.01);
+    }
+    to {
+        -o-transform: scale(1);
+    }
+}
+
+html {
+    height: 100%;
+}
+
+body {
+    background: url(../images/cloud.png) 0 bottom repeat-x #049ec4;
+    -webkit-animation: animate-cloud 20s linear infinite;
+    -moz-animation: animate-cloud 20s linear infinite;
+    -ms-animation: animate-cloud 20s linear infinite;
+    -o-animation: animate-cloud 20s linear infinite;
+    animation: animate-cloud 20s linear infinite;
+    width: 100%;
+    height: auto;
+    padding: 0;
+    margin: 0;
+}
+
+.main {
+    position: relative;
+}
+
+.main .slide-content {
+    width: 100%;
+    min-width: 980px;
+    height: 100%;
+    min-height: 640px;
+    position: relative;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    overflow: hidden;
+}
+
+.main .slide-content .cloud {
+    position: absolute;
+    width: 200px;
+    height: 100px;
+    background: url(../images/object.png);
+    left: 0px;
+    top: 0px;
+}
+
+.main .slide-content .cloud-0 {
+    background-position: -580px -240px;
+}
+
+.main .slide-content .cloud-1 {
+    background-position: -550px 0px;
+    height: 140px;
+    width: 260px;
+}
+
+.main .slide-content .cloud-2 {
+    background-position: -580px -140px;
+}
+
+.main .slide-content .cloud-3 {
+    background-position: -350px -140px;
+}
+
+.main .slide-content .cloud-4 {
+    background-position: -350px 0px;
+    height: 140px;
+}
+
+.clear {
+    clear: both;
+}
